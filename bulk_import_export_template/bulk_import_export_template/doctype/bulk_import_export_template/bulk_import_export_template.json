@@ -1,0 +1,55 @@
+{
+ "actions": [],
+ "creation": "2024-02-02 11:00:00",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "reference_doctype",
+  "template_data",
+  "field_selection_html"
+ ],
+ "fields": [
+  {
+   "fieldname": "reference_doctype",
+   "fieldtype": "Link",
+   "label": "Select Doctype",
+   "options": "DocType"
+  },
+  {
+   "fieldname": "template_data",
+   "fieldtype": "JSON",
+   "hidden": 1,
+   "label": "Template Data",
+   "read_only": 1
+  },
+  {
+   "fieldname": "field_selection_html",
+   "fieldtype": "HTML",
+   "label": "Fields Area"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "issingle": 1,
+ "links": [],
+ "modified": "2026-02-02 17:22:06.822208",
+ "modified_by": "Administrator",
+ "module": "Bulk Import Export Template",
+ "name": "Bulk Import Export Template",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

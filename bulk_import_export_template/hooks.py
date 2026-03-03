@@ -1,7 +1,7 @@
 app_name = "bulk_import_export_template"
 app_title = "Bulk Import Export Template"
 app_publisher = "Invento Software Limited"
-app_description = "na"
+app_description = "Enhances Frappe Data Import tool by providing customizable field selection templates for bulk import and export."
 app_email = "munim@invento.com.bd"
 app_license = "mit"
 
@@ -26,7 +26,7 @@ app_license = "mit"
 
 # include js, css files in header of desk.html
 # app_include_css = "/assets/bulk_import_export_template/css/bulk_import_export_template.css"
-# app_include_js = "/assets/bulk_import_export_template/js/bulk_import_export_template.js"
+app_include_js = "/assets/bulk_import_export_template/js/bulk_import_export_template.js"
 
 # include js, css files in header of web template
 # web_include_css = "/assets/bulk_import_export_template/css/bulk_import_export_template.css"
@@ -241,4 +241,3 @@ app_license = "mit"
 # default_log_clearing_doctypes = {
 # 	"Logging DocType Name": 30  # days to retain logs
 # }
-
