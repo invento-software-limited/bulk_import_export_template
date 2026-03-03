@@ -5,6 +5,8 @@ app_description = "Enhances Frappe Data Import tool by providing customizable fi
 app_email = "munim@invento.com.bd"
 app_license = "mit"
 
+from . import __version__ as app_version
+
 # Apps
 # ------------------
 
